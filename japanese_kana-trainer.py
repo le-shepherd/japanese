@@ -3,7 +3,7 @@
 # Start: 2017/03/12
 # This little program teaches the Japanese Kana scripts
 #
-#  Below the first fully working version
+# Below the first fully working version
 # For my notes, see martin_python.org
 import csv
 import random
@@ -82,7 +82,7 @@ with open("japanese_kana-tables.csv","r",newline="") as inputData:
                elif romanji == "hu":
                      romanji = "fu"
                print(romanji)
-               knowDontknow = input("Did you no this kana? (y/n)")
+               knowDontknow = input("Did you know this kana? (y/n)")
                if knowDontknow == "y":
                      print("Good job!")
                else:
