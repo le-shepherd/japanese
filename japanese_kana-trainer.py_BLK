@@ -11,11 +11,6 @@ import re # for regular expression stuff
 import time
 import pickle # to turn the csv table into a byte stream
 import os.path # to check whether pickled data exists in file already
-# for terminal output in color
-from colorama import init
-from colorama import Fore, Back, Style
-
-init()
 
 # inputData = open("japanese_kana-tables.csv","r",newline="")
 
@@ -32,30 +27,10 @@ else:
         # Pickle the 'data' dictionary using the highest protocol available.
         pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
 
-        
 # data[0][0] # now we can index into the list, with list[row nr][col nr]
 # 'vowel'
 len(data) # for the number of rows
 len(data[0]) # for the number of columns (actually counting the items in a row)
-
-# We need to collect examples for the kana
-# https://en.wiktionary.org/wiki/Appendix:1000_Japanese_basic_words
-# HIER WEITER
-# format: table with all kana and simple examples, or interactive searching? And should the kana be highlighted?
-if os.path.isfile("./dataExamples.pickle"):
-    with open('dataExamples.pickle', 'rb') as f:
-        dataEx = pickle.load(f)
-else:
-    with open("japanese_kana-examples.csv","r",newline="") as inputData:  
-    # the with statement guarantee that the opened file is closed at the
-    # end of the exectution of the whole block  
-        dataEx = list(csv.reader(inputData, delimiter=','))
-    
-    with open('dataExamples.pickle', 'wb') as f:
-        # Pickle the 'data' dictionary using the highest protocol available.
-        pickle.dump(dataEx, f, pickle.HIGHEST_PROTOCOL)
-
-examplesKana = [x[0] for x in dataEx]
 
 # Please write ka in hiragana
 # OK: procedure:
@@ -66,10 +41,9 @@ examplesKana = [x[0] for x in dataEx]
 kanaVowels = len(data) 
 kanaOnsetsFull = len(data[0]) 
 kanaVowelRange = list(range(1, kanaVowels))
-kanaOnsetRange = list(range(1, kanaOnsetsFull))
+kanaOnsetRange = list(range(1, kanaOnsetsFull + 1))
 kanaOnsetHira = list(range(1, kanaOnsetsFull,2))
 kanaOnsetKata = list(range(2, kanaOnsetsFull,2))
-
 preferences = input("Do you want do train all kana, only hiragana, or only katakana? (a/h/k)")
 if preferences == "h":
      kanaOnsetRange = kanaOnsetHira
@@ -92,8 +66,6 @@ for x in (kanaOnsetRange):
             continue
        else:
            # print(vocabItem)
-           # if kanaItem in dataEx
-           kanaEx = [x[0] for x in dataEx].index(kanaItem)
            input("Please read out {0}.".format(kanaItem))
            # time.sleep(10)
            # construct romanji
@@ -127,9 +99,6 @@ for x in (kanaOnsetRange):
                  print("Good job!")
            else:
                   print("You'll do better next time!")
-                  print("Use this example to remember the kana:")
-                  print(Fore.RED + dataEx[kanaEx][1],dataEx[kanaEx][3],dataEx[kanaEx][4])
-                  print(Style.RESET_ALL)
                   wrongItems.append([kanaItem,romanji])
            choice = input("Press q to Quit, else continue.")
            # input("Continue?")
@@ -140,10 +109,11 @@ for x in (kanaOnsetRange):
 #############################################
 #
 #   END OF THE FIRST WORKING VERSION
-#      Missing: 1. other way around 2. remember the performance 3. examples
+#      Missing: 1. other way around 2. remember the performance
 ##################################################
 
 #
+
 
 
 
