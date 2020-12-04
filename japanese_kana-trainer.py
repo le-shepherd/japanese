@@ -139,8 +139,8 @@ for x in (kanaOnsetRange):
 # inputData.close()
 #############################################
 #
-#   END OF THE FIRST WORKING VERSION
-#      Missing: 1. other way around 2. remember the performance 3. examples
+#   END 
+#      
 ##################################################
 
 #
