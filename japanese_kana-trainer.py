@@ -19,11 +19,14 @@ init()
 
 # inputData = open("japanese_kana-tables.csv","r",newline="")
 
+# os.getcwd()
+# os.chdir("./")
+
 if os.path.isfile("./data.pickle"):
     with open('data.pickle', 'rb') as f:
         data = pickle.load(f)
 else:
-    with open("japanese_kana-tables.csv","r",newline="") as inputData:  
+    with open("japanese_kana-tables.csv","r",encoding="utf8") as inputData:  
     # the with statement guarantee that the opened file is closed at the
     # end of the exectution of the whole block  
         data = list(csv.reader(inputData, delimiter=','))
@@ -32,6 +35,9 @@ else:
         # Pickle the 'data' dictionary using the highest protocol available.
         pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
 
+for item in data[0]:
+    print(item)
+         
         
 # data[0][0] # now we can index into the list, with list[row nr][col nr]
 # 'vowel'
@@ -99,7 +105,7 @@ for x in (kanaOnsetRange):
            # construct romanji
            onset = data[0][x]
            coda = data[y][0]
-           onsetClean = re.sub("_[kh]","",onset)
+           onsetClean = re.sub("[KH]","",onset)
            # m = re.search('(?<=_)\w+',onset) # (?<=...) A positive
            # lookbehind assertion. Matches if the current position in the
            # string is preceded by a match for ... that ends at the
