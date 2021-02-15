@@ -85,7 +85,7 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 ず,みず,水,mizu,water,Wasser
 ズ,ジーンズ,,jiinzu,jeans,Jeans 
 づ,つづ,続く,tsuzu,to continue,weitergehen
-ヅ,,,,,
+ヅ,,,,[no example found],[kein Beispiel gefunden]
 ぶ,どうぶつ,動物,dōbutsu,animal,Tier
 ブ,テーブル,,teepuru,table,Tisch 
 ぷ,きっぷ,,kippu,ticket,Fahr/Eintrittskarte 
@@ -94,8 +94,8 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 しゅ,しゅみ,趣味,shumi,hobby,Hobby
 ちゅ,ちゅうごくご,中国語,chūgokugo,Chinese [language],Chinesisch [Sprache]
 にゅ,にゅうがく,入学,nyuugaku,entry to school or university; matriculation,Einschulung; Einschreibung
-ひゅ,,,,,
-みゅ,,,,,
+ひゅ,,,,[no example found],[kein Beispiel gefunden]
+みゅ,,,,[no example found],[kein Beispiel gefunden]
 りゅ,りゅう,竜,ryuu,dragon,Drache
 え,え,絵,e,picture,Bild
 エ,エンジン,,enjin,engine,Motor
@@ -141,8 +141,8 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 ヨ,ヨーグルト,,yooguruto,yogurt,Jogurt
 ろ,しろ,白,shiro,white,weiß
 ロ,キロ,,kiro,kilo-; kilogram,Kilogramm
-を,,,,,
-ヲ,,,,,,,
+を,,,,[object-case marker],[Objekt-Kasus]
+ヲ,,,,,,[no example found],[kein Beispiel gefunden]
 ご,しごと,仕事,shigoto,work,Arbeit
 ゴ,ゴール,,gooru,goal; basket,Tor; Korb 
 ぞ,かぞく,家族,kazoku,family,Familie
@@ -165,10 +165,10 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 キャ, キャンディ,,kyandi,candy,Bonbon
 シャ, シャンパン ,,shanpan,Champagne,Champagner
 チャ, チャンス ,,chansu,chance,Chance
-ニャ,,,,,
-ヒャ,,,,,
+ニャ,コニャック ,konyakku,,cognac,Kognak
+ヒャ, ,,,[no example found],[kein Beispiel gefunden]
 ミャ, ミャンマー ,,myanmaa,Myanmar,Myanmar
-リャ,,,,,
+リャ, リュブリャナ ,ryuburyana,,Ljubljana [Slovenian city], Ljubljana [Stadtname]
 キュ,バーベキュー,,baabekyuu	barbecue,Grill
 シュ,キャッシュカード,,kyasshukaado,cash card,EC Karte,,,,
 チュ, チューリップ ,,chuurippu,tulip,Tulpe
@@ -180,6 +180,6 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 ショ, ショック ,,shokku,shock,Schock
 チョ,チョコレート,,chokoreeto,chocolate,Schokolade
 ニョ, ニョッキ ,,kyokki,gnocchi,Gnocchi
-ヒョ,,,,,
-ミョ,,,,,
+ヒョ,,,,[no example found],[kein Beispiel gefunden]
+ミョ,,,,[no example found],[kein Beispiel gefunden]
 リョ,リョーマチ,,ryoomachi,rheumatism,Rheumatismus
