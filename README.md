@@ -5,7 +5,7 @@ This is a simple python3 script that trains you on the Japanese kana. You can ch
 
 The script reads in two .csv tables. 
 "japanese_kana-tables.csv" is a kana-Romanji correspondence table, used in order to generate the quiz items and to generate the Romanji corresponding to the kana. 
-The rows are the 5 vowels, with the columns for the different onsets and endings. The columns alternate the hiragana and katakana, in the labels indicated with a trailing "_h"/"_k". 
+The rows are the 5 vowels, with the columns for the different onsets and endings. The columns alternate the hiragana and katakana, in the labels indicated with a trailing "H"/"K". 
 In each row, the chokuon are followed by dakuten and hakuten kana, followed by the yooon kana (incomplete at the moment, without the dakuten/hakuten versions). 10/10 + 5/5 + 7/7 
 The two "n" kana a added to the o-row (the table dimension are 6x47, including header and first column Romanji). 
 
