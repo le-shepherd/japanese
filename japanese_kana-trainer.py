@@ -35,8 +35,8 @@ else:
         # Pickle the 'data' dictionary using the highest protocol available.
         pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
 
-for item in data[0]:
-    print(item)
+# for item in data[0]:
+#     print(item)
          
         
 # data[0][0] # now we can index into the list, with list[row nr][col nr]
@@ -46,7 +46,6 @@ len(data[0]) # for the number of columns (actually counting the items in a row)
 
 # We need to collect examples for the kana
 # https://en.wiktionary.org/wiki/Appendix:1000_Japanese_basic_words
-# HIER WEITER
 # format: table with all kana and simple examples, or interactive searching? And should the kana be highlighted?
 if os.path.isfile("./dataExamples.pickle"):
     with open('dataExamples.pickle', 'rb') as f:
