@@ -88,7 +88,9 @@ else:
 # we are setting up an empty list to collect the items that were wrong
 wrongItems = []
 
+# Here, we go directly into the loop that displays the items
 # random.seed(7)
+kanaOnsetRange = kanaOnsetRange * 5 # since each onsets has 5 different codas and we don't want just each coda once
 random.shuffle(kanaOnsetRange)
 for x in (kanaOnsetRange):
        y = random.choice(kanaVowelRange)
@@ -126,6 +128,10 @@ for x in (kanaOnsetRange):
                  romanji = "ji"
            elif romanji == "hu":
                  romanji = "fu"
+           # now the syllabic n's
+           elif romanji == "Xo":
+                 romanji = "n"
+           
            print(romanji)
            knowDontknow = input("Did you know this kana? (y/n)")
            if knowDontknow == "y":
@@ -135,11 +141,15 @@ for x in (kanaOnsetRange):
                   print("Use this example to remember the kana:")
                   print(Fore.RED + dataEx[kanaEx][1],dataEx[kanaEx][3],dataEx[kanaEx][4])
                   print(Style.RESET_ALL)
-                  wrongItems.append([kanaItem,romanji])
+                  wrongItemExample = dataEx[kanaEx][1] + " " + dataEx[kanaEx][3] + " " + dataEx[kanaEx][4]
+                  wrongItems.append([kanaItem,romanji,wrongItemExample])
            choice = input("Press q to Quit, else continue.")
            # input("Continue?")
            if choice == 'q':
-               print("These items were wrong" + str(wrongItems))
+               print("These items were wrong:\n")
+               for item in wrongItems:
+                   print(Fore.RED + str(item[0]) + " " + Fore.GREEN + str(item[1]) + Fore.BLUE + " as in "+ Fore.YELLOW + str(item[2]))
+               # print("These items were wrong\n" + str(wrongItems))
                break
 # inputData.close()
 #############################################
