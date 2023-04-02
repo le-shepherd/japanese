@@ -2,26 +2,33 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 あ,あか,赤,aka,red,Rot
 あ,あさ,朝,asa,morning,der Morgen
 あ,あたま,頭,atama,head,Kopf
+あ,あまり,,amari,not much,selten;kaum
 ア,アニメ,,anime,anime,Anime 
 ア,アメリカ,,amerika,America,Amerika
 か,かく,書く,kaku,to write,schreiben
+か,かみ,紙,kami,paper,Papier
 カ,カメラ,,kamera,camera,Photoapparat 
 さ,さかな,魚,sakana,fish,Fisch
 サ,サラダ,,sarada,salat,Salat 
 た,たいいく,体育,taiiku,physical education,Sport [Unterricht]
+た,たまご,卵,egg,Ei
 タ,タクシー,,takushii,cab;taxi,Taxi
-な,なに,,nani,what?,Was?
+な,なに,何,nani,what?,Was?
 ナ,ナイフ,,naifu,knife,Messer
 は,はなす,話す,hanasu,to speak,sprechen
+は,はがき,葉書,hagaki,postcard,Postkarte 
 ハ,ハイキング,,haikingu,hiking,Hiking
+ハ,ハンブルク,,hanburuku,Hamburg,Hamburg
 ま,まど,窓,mado,window,Fenster
 マ,マラソン,,maraton,marathon,Marathon
 や,やすみ,休み,yasumi,vacation;holiday,Ferien
+や,やさい,野菜,yasai,vegetable,Gemüse  
 ヤ,ヤマハ,,yamaha,Yamaha,Yamaha 
 ら,らいねん,来年,rainen,next year,nächstes Jahr
 ラ,カメラ,,kamera,camera,Photoapparat 
 ラ,ラジオ,,rajio,radio,Radio
 わ,わたし,私,watashi,I;me,ich
+わ,わかる,分かる,wakaru,understand,verstehen
 ワ,ワイン,,wain,wine,Wein 
 が,がつ,月,gatsu,month,Monat
 ガ,ガソリン,,gasorin,gasoline;petrol,Benzin 
@@ -36,6 +43,7 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 きゃ,きゃく,客,kyaku,guest; visitor,Gast; Besucher
 しゃ,かいしゃ,会社,kaisha,company,Firma 
 しゃ,れっしゃ,列車,ressha,train,Zug 
+しゃ,しゃしん,写真,photograph,Foto 
 ちゃ,ちゃ,茶,cha,tea,Tee
 にゃ,ろうにゃく,老若,roonyaku,young and old,jung und alt
 ひゃ,ひゃく,百,hyaku,hundred,Hundert
@@ -43,20 +51,26 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 りゃ,りゃくご,略語,ryakugo,abbreviation;acronym,Abkürzung;Akronym
 い,いう,言う,iu,to say,sagen
 い,いかが,,ikaga,how about?,wie wärs mit?
+い,いつも,,always,immer
 イ,ワイン,,wain,wine,Wein 
 イ,イヤホン,,iahon,earphone,Kopfhörer
+イ,インゴルシュタット,,ingorushutatto,Ingolstadt,Ingolstadt
 き,きいろ,黄色,kiiro,yellow,gelb
 き,き,木,ki,tree; wood,Baum; Holz
+き,きのう,昨日,kinou,yesterday,gestern
 キ,ウイスキー,,uisuki,whiskey,Whiskey
 し,しんぶん,新聞,shinbun,newspaper,Zeitung
 シ,システム,,shisutemu,system,System
 ち,ちち,父,chichi,father,Vater
+ち,ちず,地図,chizu,map,Karte
+チ, チェック,,chekku,looking-over​,Überprüfung
 チ,ハンカチ,,hankachi,handkerchief​,Taschentuch
 に,にく,肉,niku,flesh; meat,Fleisch
 ニ,アニメ,,anime,anime,Anime 
 ひ,ひこうき,飛行機,hikooki,airplane,Flugzeug
 ヒ,コーヒー,,koohii,coffee,Kaffee
 み,みどり,緑,midori,green,grün
+み,みる,見る,miru,to see,sehen
 ミ,ビタミン,,bitamin,vitamin,Vitamin 
 り,りか,理科,rika,science,Wissenschaft
 リ,アクセサリー,,akusesarii,accessory,Accessoires; Schmuck​
@@ -65,7 +79,7 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 じ,じしょ,辞書,jisho,dictionary,Wörterbuch
 ジ,ジュース,,juusu,juice,Saft
 ぢ,ちかぢか,近々,chiji,soon; nearness,bald 
-ヂ,,,,,
+ヂ,,,,[no example found],[kein Beispiel gefunden]
 び,ゆうびんきょく,郵便局,yuubinkyoku,post office,Post [Filiale]
 ビ,テレビ,,terubi,TV,Fernseher 
 ぴ,えんぴつ,鉛筆,enpitsu,pencil,Bleistift​
@@ -75,15 +89,21 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 く,くろ,黒,kuro,black,schwarz
 ク,クリスマス,,kurisumasu,Christmas,Weihnachten
 す,すわる,座る,suwaru,to sit,sitzen
+す,すみません,済みません,sumimasen,excuse me,Entschuldigung! ...
 ス,スポーツ,,supōtsu,sport,Sport
+ス,スピーチ,,supiichi,speech,Rede
 つ,つき,月,tsuki,moon,Mond
+つ,つくる,作る,tsukuru,prepare,zubereiten
 ツ,スポーツ,,supōtsu,sport,Sport
 ぬ,いぬ,犬,inu,dog,Hund
 ヌ,カヌー,,kanuu,canoe,Kanu
 ふ,ふゆ,冬,fuyu,winter,Winter
 フ,フュージョン,,fyuujon,fusion,Fusion 
+フ,フランクフルト,,furankufuruto,Frankfurt,Frankfurt
+フ,フライブルク,,furanburuku,Freiburg,Freiburg
 む,かむ,噛む,kamu,to bite,beißen
 む,むすめ,娘,musume,daugher (own),Tochter (eigene)
+む,むずかしい,難しい,muzukashii,difficult;hard,schwierig
 ム,アイスクリーム,,aisukuriimu,ice cream,Eis
 ゆ,ゆき,雪,yuki,snow,Schnee
 ゆ,ゆうびんきょく,郵便局,yuubinkyoku,post office,Postamt
@@ -109,21 +129,24 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 みゅ,,,,[no example found],[kein Beispiel gefunden]
 りゅ,りゅう,竜,ryuu,dragon,Drache
 え,え,絵,e,picture,Bild
+え,えいが,映画,eiga,movie,Film
 エ,エンジン,,enjin,engine,Motor
 け,さけ,酒,sake,alcohol; sake,Alkohol; Sake
 ケ,ケーキ,,keeki,cake,Kuchen
 せ,せん,千,sen,thousand,tausend
 セ,セーター,,seetaa,sweater;jumper,Pullover
 て,てがみ,手紙 ,tegami,letter,Brief
-テ,ホテル,,hoteru,hotel,Hotel 
+テ,テレビ,,terebi,TV,Fernseher 
 テ,ホテル,,hoteru,hotel,Hotel 
 ね,ねる,寝る,neru,to sleep,schlafen
+ね,ねこ,猫,neko,cat,Katze
 ネ,ネクタイ,,nekutai,tie;necktie,Schlips
 へ,へや,部屋,heya,room;chamber,Zimmer 
 ヘ,ヘリコプター,,herikoputaa,helicopter,Hubschrauber 
 め,め,目,me,eye,Auge
 メ,アニメ,,anime,anime,Anime 
 メ,メニュー,,menyū,menu,Speisekarte
+メ,メール,,mēru,email,Email
 れ,れきし,歴史,rekishi,history,Geschichte
 レ,レストラン,,resutoran,restaurant,Restaurant
 げ,げつようび,月曜日,getsuyoobi,monday,Montag
@@ -137,8 +160,10 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 ぺ,だんぺん,断片,danpen,fragment; scrap,Fragment
 ペ,ペン,,pen,pen,Füller 
 お,おんがく,音楽,ongaku,music,Musik
+お,おかし,お菓子,okashi,sweets; cake,Süßigkeiten; Kuchen
 オ,オレンジ,,orenji,orange,Orange [Farbe]
 こ,ねこ,猫,neko,cat,Katze
+こ,こんばん,今晩,konban,tonight,heute abend 
 コ,コーヒー,,koohii,coffee,Kaffee
 そ,そと,外,soto,outside,draußen
 ソ,ソフト,,sofuto,soft,sanft
@@ -154,11 +179,13 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 も,こども,子供,kodomo,child,Kind
 モ,モデル,,moderu,model,Modell; Model
 よ,よむ,読む,yomu,to read,lesen
+よ,よく,,yoku,often,oft
 ヨ,ヨーグルト,,yooguruto,yogurt,Jogurt
+ヨ,ヨーロッパ,,yooroppa,Europe,Europa
 ろ,しろ,白,shiro,white,weiß
 ロ,キロ,,kiro,kilo-; kilogram,Kilogramm
 を,,,,[object-case marker],[Objekt-Kasus]
-ヲ,,,,,,[no example found],[kein Beispiel gefunden]
+ヲ,,,,[no example found],[kein Beispiel gefunden]
 ご,しごと,仕事,shigoto,work,Arbeit
 ゴ,ゴール,,gooru,goal; basket,Tor; Korb 
 ゴ,コップ,,goppu,glass (for drinking),Tasse 
@@ -175,27 +202,32 @@ kana,examplesKana,examplesKanji,examplesRomanji,examplesE,examplesG
 きょ,きょう,今日,kyou,today,heute
 きょ,ゆうびんきょく,郵便局,yuubinkyoku,post office,Post
 しょ,としょかん ,図書館,toshokan,library,Bibliothek
+しょ,しょうせつ,小説,shousetsu,novel,Roman
 ちょ,しゃちょう,社長,shachoo,company president; manager,Manager
 にょ,にょう,尿,nyoo,urine,Urin
 ひょ,ひょうか,評価,hyooka,valuation;estimation,Schätzung
 みょ,みょう,妙,myoo,strange;weird,merkwürdig;seltsam
-りょ,りょこう,,ryokoo,travel;trip,Reise; reisen 
+りょ,りょこう,旅行,ryokoo,travel;trip,Reise; reisen 
+りょ,りょうり,料理,ryouri,cooking;meal,Gericht;Mahlzeit
 ん,じかん,時間,jikan,time,Zeit 
 ン,サンドイッチ,,sandoitchi,sandwich,Sandwich
 キャ,キャンディ,,kyandi,candy,Bonbon
 シャ,シャンパン,,shanpan,Champagne,Champagner
 チャ,チャンス,,chansu,chance,Chance
-ニャ,コニャック ,konyakku,,cognac,Kognak
+ニャ,コニャック,,konyakku,cognac,Kognak
 ヒャ,,,,[no example found],[kein Beispiel gefunden]
 ミャ, ミャンマー ,,myanmaa,Myanmar,Myanmar
-リャ,リュブリャナ ,ryuburyana,,Ljubljana [Slovenian city], Ljubljana [Stadtname]
-キュ,バーベキュー,,baabekyuu	barbecue,Grill
-シュ,キャッシュカード,,kyasshukaado,cash card,EC Karte,,,,
+リャ,リュブリャナ ,,ryuburyana,Ljubljana [Slovenian city], Ljubljana [Stadtname]
+キュ,バーベキュー,,baabekyuu,barbecue,Grill
+シュ,キャッシュカード,,kyasshukaado,cash card,EC Karte
 チュ, チューリップ ,,chuurippu,tulip,Tulpe
+デュ,デュッセルドルフ,,dyusserudorufu,Düsseldorf,Düsseldorf
 ニュ,メニュー,,menyuu,menu,Menü/Karte
+ニュ,ニュルンベルク,,nyurunberuku,Nuremberg,Nürnberg
 ヒュ,ヒューマニズム ,,hyuumanizumu,humanism,Humanismus
 ミュ,ミュージック,,myuujikku,music,Musik
 リュ,グリューワイン,,geryuuwain,spiced mulled wine,Glühwein
+リュ,リューネブルク,,ryuuneburuku,Lüneburg,Lüneburg
 キョ,キョロキョロ ,,kyokokyoko,(looking around) restlessly,
 ショ,ショック ,,shokku,shock,Schock
 チョ,チョコレート,,chokoreeto,chocolate,Schokolade

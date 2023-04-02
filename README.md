@@ -22,6 +22,5 @@ TODO:
 1. make colorama library optional
 2. complete examples
 3. sort errors by kana type
-4. add reverse training
-5. remember the performance
+4. remember the performance
 
